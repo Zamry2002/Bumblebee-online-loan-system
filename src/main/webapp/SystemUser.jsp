@@ -1,22 +1,19 @@
-<%-- 
-    Document   : Admin
-    Created on : Mar 20, 2023, 9:12:56 PM
-    Author     : ZAMRY
---%>      
-<!DOCTYPE html>
+ <%@page contentType="text/html" pageEncoding="UTF-8"%>
+ <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">   
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	crossorigin="anonymous">
-
+  <link rel="stylesheet" type="text/css" href="main.css">  
+  <style>
+  .login-box{
+    height: 380px;
+}</style>
 </head>
 <body>
-    <form method="post" action="<%=request.getContextPath()%>/login">
+    <form method="post" action="SystemUserHome.jsp">
     <div class="login-box" align="center">
-        <h1>Admin Login</h1>
+    <img src="user.png" class="avatar" >
+        <h1>System User Login</h1>
             <p>Username</p>
             <input type="text" name="username" placeholder="Enter Username" required="required">
             <p>Password</p>
@@ -33,4 +30,3 @@
 	%>
     </body>
 </html>
-

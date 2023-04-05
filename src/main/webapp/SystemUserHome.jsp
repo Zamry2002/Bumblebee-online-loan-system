@@ -1,31 +1,23 @@
-<%-- 
-    Document   : AdminHome
-    Created on : Mar 21, 2023, 1:52:19 PM
-    Author     : ZAMRY
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Admin Functionalities</title>
-    <link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	crossorigin="anonymous">
-
+    <title>System User Functionalities</title>
+    <link rel="stylesheet" href="adminhome.css">
   </head>
   <body>
     <header>
       <div class="logo">
-        <h1>My Admin Panel</h1>
+        <h1>My User Panel</h1>
       </div>
       <nav>
         <ul>
-          <li><a href="Customer-list.jsp">Manage Customers Details</a></li>
-          <li><a href="AddNewProduct.jsp">Manage Products</a></li>
-          <li><a href="#">Settings</a></li>
+          <li><a href="#">Manage Products </a></li>
+          <li><a href="#">Manage Categories</a></li>
+          <li><a href="#">Manage Brands</a></li>
+          <li><a href="#">Manage Inventory</a></li>
         </ul>
       </nav>
     </header>
