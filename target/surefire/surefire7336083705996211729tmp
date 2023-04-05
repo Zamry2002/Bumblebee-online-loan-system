@@ -1,0 +1,9 @@
+#surefire
+#Wed Apr 05 05:50:18 IST 2023
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=C\:\\Users\\ZAMRY\\Documents\\NetBeansProjects\\WebAppBumbleBee
+file.encoding=UTF-8
+localRepository=C\:\\Users\\ZAMRY\\.m2\\repository
+netbeans.deploy=true
+netbeans.deploy.clientUrlPart=/AllProduct.jsp
+basedir=C\:\\Users\\ZAMRY\\Documents\\NetBeansProjects\\WebAppBumbleBee
